@@ -1,3 +1,4 @@
+//promedio de graduación
 #include <iostream>
 using namespace std;
 int s=0;
@@ -18,6 +19,6 @@ for (int i=0; i<16; i++)
     cout<<edad[i]<<" , ";
     cout<<endl;
   }
-cout<<"el promedio al que se graduará este gurpo es de "<<s/16<<endl;
+ cout<<"El promedio al que se graduará este gurpo es de "<<s/16<<" años"<<endl;
 return 0;
 }
